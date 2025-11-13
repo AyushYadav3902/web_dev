@@ -1,46 +1,73 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Assignment 1 - Course</title>
-    <style>
-      body { font-family: Arial, Helvetica, sans-serif; padding: 20px; line-height: 1.6; }
-      header { margin-bottom: 20px; }
-      h1 { color: #2c3e50; }
-      section { margin: 16px 0; padding: 12px; background: #f9f9f9; border-left: 4px solid #3498db; }
-      h2 { color: #34495e; }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Assignment 1 - Course</h1>
-      <p>Course assignment starter template.</p>
-    </header>
 
-    <main>
-      <section>
-        <h2>Course Details</h2>
-        <p>Enter your course details here.</p>
-      </section>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Curriculum</title>
+</head>
+<body>
+    <h2>Introduction</h2>
+    <p>
+        Welcome to the <b>Course Curriculum.</b> 
+        This page demonstrates the use of <i>HTML formatting</i>, 
+        <u>lists</u>, and special characters such as &copy;, &lt;, &gt;.
+    </p>
 
-      <section>
-        <h2>Learning Objectives</h2>
-        <ul>
-          <li>Objective 1</li>
-          <li>Objective 2</li>
-          <li>Objective 3</li>
-        </ul>
-      </section>
+    <h3>Semester 1 Subjects (Ordered List)</h3>
+    <ol>
+        <li>Mathematics I</li>
+        <li>Computer Fundamentals</li>
+        <li>Programming in C</li>
+        <li>Electronics Basics</li>
+    </ol>
 
-      <section>
-        <h2>Resources</h2>
-        <p>Add course resources, links, or references.</p>
-      </section>
-    </main>
+    <h3>Programming Languages (Unordered List)</h3>
+    <ul>
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+    </ul>
 
-    <footer style="margin-top: 30px; border-top: 1px solid #bdc3c7; padding-top: 10px; color: #7f8c8d;">
-      <p>&copy; 2025 Course Assignment</p>
-    </footer>
-  </body>
+    <h3>Course Description (Description List)</h3>
+    <dl>
+        <dt><b>C Programming</b></dt>
+        <dd>Learn basics of C language including loops, arrays, and functions.</dd>
+
+        <dt><b>Java</b></dt>
+        <dd>Introduction to Object-Oriented Programming concepts.</dd>
+    </dl>
+
+    <h3>Course Modules (Nested List)</h3>
+    <ol>
+        <li>Module 1: Basics
+            <ul>
+                <li>Introduction</li>
+                <li>History of Computers</li>
+            </ul>
+        </li>
+        <li>Module 2: Programming
+            <ul>
+                <li>Variables &amp; Data Types</li>
+                <li>Control Statements</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Project Work (Mixed List)</h3>
+    <ul>
+        <li>Web Development
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </li>
+        <li>Database
+            <ol type="A">
+                <li>MySQL</li>
+                <li>MongoDB</li>
+            </ol>
+        </li>
+    </ul>
+</body>
 </html>
