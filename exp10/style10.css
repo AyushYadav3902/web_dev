@@ -79,3 +79,12 @@
   .hamburger {
     display: block;
   }
+
+  .actions {
+    display: none;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+}
