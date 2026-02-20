@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* Navbar Container */
 .navbar {
   display: flex;
@@ -76,15 +75,7 @@
     text-align: center;
   }
 
-  .hamburger {
-    display: block;
+    .hamburger {
+      display: block;
+    }
   }
-
-  .actions {
-    display: none;
-  }
-
-  #menu-toggle:checked ~ .nav-links {
-    display: flex;
-  }
-}
